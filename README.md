@@ -34,11 +34,11 @@ The network was implemented using Cisco IOS commands, as documented in the 'Code
 (Include screenshots from the Packet Tracer simulation here.)
 
 ## References
-- YouTube Video: [Author's Last Name], [F.M.]. ([Year], [Month Date]). [Title of video] [Video]. YouTube. [URL]
-(Include other sources used in the project.)
+- YouTube Video: Gurutech Networking Training (2022, July 14). Company Network Design & Implementation Using Cisco Packet Tracer | Enterprise Network Project #6. YouTube. https://youtu.be/eqEd84yeRxg?si=fa2i9BFFPmilTcdO
 
 ## Acknowledgements
-(Thank the contributors and sources that helped in the project.)
+Special thanks to Gurutech Networking Training for the insightful video titled "Company Network Design & Implementation Using Cisco Packet Tracer | Enterprise Network Project #6", which provided valuable guidance and inspiration for this project. Their work on Enterprise Network Desigining was particularly helpig in completing this project
+
 
 ---
 
