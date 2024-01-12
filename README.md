@@ -19,13 +19,32 @@ This project involves a comprehensive plan for upgrading an existing network inf
 
 ## Network Design
 
-This section outlines our New Network Design for a modern three-story, 45,000 sq ft office building. It features a meticulously planned network to support various departments with distinct needs, ensuring robust infrastructure and advanced connectivity. Key highlights include optimized floor allocation, enhanced office connectivity, comprehensive client support, and future-proof server solutions. Detailed technical specifications, hardware lists, and floor plans are available in the Network_Design folder.
+This section outlines our New Network Design for a modern three-story, 45,000 sq ft office building. It features a meticulously planned network to support various departments with distinct needs, ensuring robust infrastructure and advanced connectivity. Key highlights include optimized floor allocation, enhanced office connectivity, comprehensive client support, and future-proof server solutions. Detailed technical specifications, hardware lists, and floor plans are available in the [Network_Design](https://github.com/ryobravo8/network-upgrade-project/tree/main/Network_Design) folder.
 
 ## Implementation Details
-The network was implemented using Cisco IOS commands, as documented in the 'Code' folder. A Packet Tracer simulation was used for demonstration, available in the 'Packet_Tracer_File' folder.
+The network was implemented using Cisco IOS commands, as documented in the 'Code' folder. A Packet Tracer simulation was used for demonstration, available in the [Packet_Tracer_File](https://github.com/ryobravo8/network-upgrade-project/tree/main/Pacekt_Tracer_file) folder.
 
 ## Challenges and Solutions
-(Discuss any challenges faced during the implementation and the solutions employed.)
+### Challenge: RIP Configuration
+
+One of the key challenges faced during the implementation of our network upgrade project was configuring the Routing Information Protocol (RIP). RIP is a dynamic routing protocol used in local and wide area networks. As a distance-vector routing protocol, it employs the hop count as a routing metric and uses the Bellman-Ford algorithm to determine the best path to each destination network. The challenge lay in correctly configuring RIP to ensure efficient and accurate routing within our upgraded network.
+
+### Solution: Implementing Cisco IOS Commands for RIP
+
+To address this challenge, we employed a series of Cisco IOS commands specifically designed for RIP configuration. Here's a step-by-step breakdown of the commands used:
+1. Enable RIP Routing Process
+  - `router rip`: This command initiates the RIP routing process
+2. Specify the RIP Version
+  - `version 2`: We chose RIP version 2 for its support of subnetting and CIDR.
+3. Define the Networks
+  - `network [network-address]`: This command is repeated for each network connected to the router. The network address should be the network number, not the IP address of the router's interface.
+4. Optional Commands
+  - `no auto-summary`: Disables automatic summarization of subnet routes into network-level routes.
+  - `passive-interface [interface-name]`: Prevents RIP updates from being sent through a specified interface, useful for security and traffic optimization.
+5. Save Configuration
+  - `write memory`: This command saves the configuration to prevent loss after a reboot.
+
+By implementing these steps, we successfully configured RIP for our network, ensuring effective routing and addressing the challenge efficiently.
 
 ## Future Improvements
 (Outline potential future enhancements to the network.)
