@@ -1,5 +1,5 @@
 # Network Upgrade Project
-<img src="network_upgrade_featured_image.png" width="711">
+<img src="Image_Files/network_upgrade_featured_image.png" width="711">
 
 ## Overview
 This project involves a comprehensive plan for upgrading an existing network infrastructure to enhance performance and security. The design and implementation are based on the assignment from McGill University's cybersecurity course.
@@ -55,7 +55,7 @@ By implementing these steps, we successfully configured RIP for our network, ens
     - Keep pace with technological advancements, such as Wi-Fi 6E, for improved speed and capacity.
 
 ## Screenshots
-(Include screenshots from the Packet Tracer simulation here.)
+![Packet Tracer Diagram](Topology_Files/network_upgrade.png)
 
 ## References
 - YouTube Video: Gurutech Networking Training (2022, July 14). Company Network Design & Implementation Using Cisco Packet Tracer | Enterprise Network Project #6. YouTube. https://youtu.be/eqEd84yeRxg?si=fa2i9BFFPmilTcdO
