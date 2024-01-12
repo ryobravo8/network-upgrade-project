@@ -47,7 +47,11 @@ To address this challenge, we employed a series of Cisco IOS commands specifical
 By implementing these steps, we successfully configured RIP for our network, ensuring effective routing and addressing the challenge efficiently.
 
 ## Future Improvements
-(Outline potential future enhancements to the network.)
+  - **Workstation Expansion:** Plan to support approximately 660 workstations in the next year, considering a 10% annual growth rate.
+  - **Connection Speed Upgrades:** Annual review and potential upgrade to 10-gigabit Ethernet for central switches and advanced routers to meet increasing bandwidth demands.
+  - **Wireless Network Enhancement:**
+    - Increase the number of access points to accommodate the rising usage of BYOD and IoT devices.
+    - Keep pace with technological advancements, such as Wi-Fi 6E, for improved speed and capacity.
 
 ## Screenshots
 (Include screenshots from the Packet Tracer simulation here.)
