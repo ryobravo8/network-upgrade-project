@@ -1,4 +1,5 @@
 # Network Upgrade Project
+<img src="network_upgrade_featured_image.png" width="711">
 
 ## Overview
 This project involves a comprehensive plan for upgrading an existing network infrastructure to enhance performance and security. The design and implementation are based on the assignment from McGill University's cybersecurity course.
